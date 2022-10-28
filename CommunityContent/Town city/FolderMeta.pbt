@@ -1,0 +1,91 @@
+MetaVersion: 1
+MarketplaceDetails {
+  Id: "cfec697f0f3d431f8b30caa2b1caaf81"
+  OwnerAccountId: "a788350de84641bb8620f7aaf43690be"
+  OwnerName: "Vi3tk0nG"
+  Version: "1.0.0"
+}
+AssetIdsOriginalToNew {
+  key: 768115667364368215
+  value: 7991861743534887971
+}
+AssetIdsOriginalToNew {
+  key: 812257788820716844
+  value: 10318218055691391046
+}
+AssetIdsOriginalToNew {
+  key: 3412099470154605013
+  value: 56744274372325747
+}
+AssetIdsOriginalToNew {
+  key: 4384439909892109277
+  value: 14164249903072965688
+}
+AssetIdsOriginalToNew {
+  key: 4411903909412527600
+  value: 4713527052331818795
+}
+AssetIdsOriginalToNew {
+  key: 6870439686614002480
+  value: 14830883793578408150
+}
+AssetIdsOriginalToNew {
+  key: 8440894553228344849
+  value: 12128948092927387313
+}
+AssetIdsOriginalToNew {
+  key: 9101865704740791126
+  value: 3564489961269767418
+}
+AssetIdsOriginalToNew {
+  key: 9724380595810523257
+  value: 4987063172462171143
+}
+AssetIdsOriginalToNew {
+  key: 12086805499086665334
+  value: 1317312476109653816
+}
+AssetIdsOriginalToNew {
+  key: 14127699701074153020
+  value: 10988416995377717878
+}
+AssetIdsOriginalToNew {
+  key: 14330714006861058691
+  value: 7615576190279198724
+}
+AssetIdsOriginalToNew {
+  key: 14870115857061485792
+  value: 3020031435495699643
+}
+AssetIdsOriginalToNew {
+  key: 15451716403647216211
+  value: 4202496223141435475
+}
+AssetIdsOriginalToNew {
+  key: 15465176636880253166
+  value: 2177533210100885201
+}
+AssetIdsOriginalToNew {
+  key: 16655810517243357498
+  value: 14217453509210271964
+}
+AssetIdsOriginalToNew {
+  key: 16766386566479040695
+  value: 10106729120860930172
+}
+AssetIdsOriginalToNew {
+  key: 16881770371959982329
+  value: 14598962968608347715
+}
+AssetIdsOriginalToNew {
+  key: 17179152335413482908
+  value: 6617998002382915857
+}
+AssetIdsOriginalToNew {
+  key: 17187959141398421775
+  value: 2100174534525411556
+}
+AssetIdsOriginalToNew {
+  key: 17238737581205935009
+  value: 9691475281179902577
+}
