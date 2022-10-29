@@ -41,6 +41,7 @@ Objects {
   ChildIds: 5440532480145579116
   ChildIds: 17072946129165893213
   ChildIds: 10774712241041059071
+  ChildIds: 13008518395340418711
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -58,6 +59,49 @@ Objects {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 13008518395340418711
+  Name: "ItemRespawnerByTHC"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6072001478585378490
+      value {
+        Overrides {
+          Name: "Name"
+          String: "ItemRespawnerByTHC"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -1050
+            Y: 7700
+          }
+        }
+        Overrides {
+          Name: "cs:Item"
+          AssetReference {
+            Id: 5057853388044402359
+          }
+        }
+        Overrides {
+          Name: "cs:TimeBeforeRespawn"
+          Float: 15
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 5453109748337147104
+    }
+  }
 }
 Objects {
   Id: 10774712241041059071
@@ -678,7 +722,7 @@ Objects {
   ChildIds: 5481612290522181509
   ChildIds: 10513018283756454029
   ChildIds: 16793177779669071244
-  ChildIds: 10268993698648592793
+  ChildIds: 12450714610454070425
   ChildIds: 10599131486678489938
   ChildIds: 12446161967405582950
   ChildIds: 3228838664348408951
@@ -1540,13 +1584,13 @@ Objects {
   }
 }
 Objects {
-  Id: 10268993698648592793
+  Id: 12450714610454070425
   Name: "Golden Coin"
   Transform {
     Location {
-      X: -850
-      Y: 3550
-      Z: -0.50390625
+      X: 1845.16553
+      Y: 14572.3408
+      Z: -43.3488731
     }
     Rotation {
     }
@@ -1557,27 +1601,211 @@ Objects {
     }
   }
   ParentId: 1974755900421154363
+  ChildIds: 4433679166195693593
+  ChildIds: 1176407644234999349
+  ChildIds: 8611607848326253112
+  ChildIds: 3448412417390867308
   WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 12450714610454070425
+    SubobjectId: 2622576442933989317
+    InstanceId: 10268993698648592793
+    TemplateId: 5057853388044402359
+    WasRoot: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 3448412417390867308
+  Name: "PickupCoin"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12450714610454070425
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Trigger"
+      ObjectReference {
+        SelfId: 8611607848326253112
+      }
+    }
+  }
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 16458036432254673255
+    }
+  }
+  InstanceHistory {
+    SelfId: 3448412417390867308
+    SubobjectId: 12067299867075164208
+    InstanceId: 10268993698648592793
+    TemplateId: 5057853388044402359
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 8611607848326253112
+  Name: "Trigger"
+  Transform {
+    Location {
+      Z: 100
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12450714610454070425
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+    InteractionTemplate {
+    }
+    BreadcrumbTemplate {
+    }
+  }
+  InstanceHistory {
+    SelfId: 8611607848326253112
+    SubobjectId: 18387636732556280164
+    InstanceId: 10268993698648592793
+    TemplateId: 5057853388044402359
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 1176407644234999349
+  Name: "ClientContext"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12450714610454070425
+  ChildIds: 4576380580146215057
+  ChildIds: 13006687893109922964
+  ChildIds: 8566086502139532148
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  NetworkContext {
+    MinDetailLevel {
+      Value: "mc:edetaillevel:low"
+    }
+    MaxDetailLevel {
+      Value: "mc:edetaillevel:ultra"
+    }
+  }
+  InstanceHistory {
+    SelfId: 1176407644234999349
+    SubobjectId: 11024777925603667305
+    InstanceId: 10268993698648592793
+    TemplateId: 5057853388044402359
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 8566086502139532148
+  Name: "Object Curve Mover"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1176407644234999349
   TemplateInstance {
     ParameterOverrideMap {
-      key: 2622576442933989317
+      key: 1072177198051453324
       value {
         Overrides {
           Name: "Name"
-          String: "Golden Coin"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 1845.16553
-            Y: 14572.3408
-            Z: -43.3488731
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
+          String: "Object Curve Mover"
         }
         Overrides {
           Name: "Scale"
@@ -1587,12 +1815,254 @@ Objects {
             Z: 1
           }
         }
+        Overrides {
+          Name: "cs:Multiplier"
+          Float: 15
+        }
+        Overrides {
+          Name: "cs:Object"
+          ObjectReference {
+            SelfId: 4576380580146215057
+          }
+        }
       }
     }
     TemplateAsset {
-      Id: 5057853388044402359
+      Id: 12483278651348793855
     }
   }
+  InstanceHistory {
+    SelfId: 8566086502139532148
+    SubobjectId: 17897886652826059501
+    InstanceId: 10268993698648592793
+    TemplateId: 5057853388044402359
+  }
+}
+Objects {
+  Id: 13006687893109922964
+  Name: "Object Rotator Continuous"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1176407644234999349
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 5456438743692384211
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Object Rotator Continuous"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 80
+          }
+        }
+        Overrides {
+          Name: "cs:Object"
+          ObjectReference {
+            SelfId: 4576380580146215057
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 12389937795709284920
+    }
+  }
+  InstanceHistory {
+    SelfId: 13006687893109922964
+    SubobjectId: 4180399170040646925
+    InstanceId: 10268993698648592793
+    TemplateId: 5057853388044402359
+  }
+}
+Objects {
+  Id: 4576380580146215057
+  Name: "Geo"
+  Transform {
+    Location {
+      Z: 100
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1176407644234999349
+  ChildIds: 4449529002171477539
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 4576380580146215057
+    SubobjectId: 13199488097326117837
+    InstanceId: 10268993698648592793
+    TemplateId: 5057853388044402359
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 4449529002171477539
+  Name: "Gem - Round Polished"
+  Transform {
+    Location {
+    }
+    Rotation {
+      Pitch: 90
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4576380580146215057
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 1302091238852643306
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.340000033
+        G: 0.222913951
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2760411577778229356
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 4449529002171477539
+    SubobjectId: 13047902923562444159
+    InstanceId: 10268993698648592793
+    TemplateId: 5057853388044402359
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 4433679166195693593
+  Name: "ItemRespawner"
+  Transform {
+    Location {
+      X: -4800
+      Y: -1350
+      Z: 0.50390625
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12450714610454070425
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Item"
+      AssetReference {
+        Id: 841534158063459245
+      }
+    }
+    Overrides {
+      Name: "cs:TimeBeforeRespawn"
+      Float: 2
+    }
+  }
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 2998242151237456158
+    }
+  }
+  InstanceHistory {
+    SelfId: 4433679166195693593
+    SubobjectId: 6072001478585378490
+    InstanceId: 9484192289980121754
+    TemplateId: 6538163744894442705
+    WasRoot: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 16793177779669071244
@@ -4619,7 +5089,7 @@ Objects {
         }
         Overrides {
           Name: "UIX"
-          Float: 550
+          Float: 250
         }
         Overrides {
           Name: "UIY"
@@ -4632,6 +5102,23 @@ Objects {
         Overrides {
           Name: "Height"
           Int: 40
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 15119469979375604568
+      value {
+        Overrides {
+          Name: "UIX"
+          Float: 200
+        }
+        Overrides {
+          Name: "UIY"
+          Float: 0
+        }
+        Overrides {
+          Name: "Label"
+          String: "Health"
         }
       }
     }

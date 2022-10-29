@@ -142,3 +142,21 @@ Assets {
     AssetId: "npc_human_guy_lower_scifi_002_ref"
   }
 }
+Assets {
+  Id: 2760411577778229356
+  Name: "Gem - Round Polished"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_gem_round_polished_001"
+  }
+}
+Assets {
+  Id: 1302091238852643306
+  Name: "Basic Material"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_basic_pbr_material_001"
+  }
+}

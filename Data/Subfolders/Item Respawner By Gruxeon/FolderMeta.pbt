@@ -1,0 +1,119 @@
+MetaVersion: 1
+MarketplaceDetails {
+  Id: "2439b826ae38426db4205b89df00f644"
+  OwnerAccountId: "07186e8771c64c3f8a9efb646c26a871"
+  OwnerName: "Gruxeon"
+  Version: "1.0.0"
+}
+AssetIdsOriginalToNew {
+  key: 616126060978341894
+  value: 14984217682486408648
+}
+AssetIdsOriginalToNew {
+  key: 647083256264374232
+  value: 490167695703618511
+}
+AssetIdsOriginalToNew {
+  key: 1121493518655226120
+  value: 4793187958220610018
+}
+AssetIdsOriginalToNew {
+  key: 1833177883141450575
+  value: 5453109748337147104
+}
+AssetIdsOriginalToNew {
+  key: 3097059971751532625
+  value: 149972460369996935
+}
+AssetIdsOriginalToNew {
+  key: 3368977551375412986
+  value: 17919080459298267413
+}
+AssetIdsOriginalToNew {
+  key: 4272581632978964974
+  value: 7673248953111943519
+}
+AssetIdsOriginalToNew {
+  key: 4589995543582709662
+  value: 16095184145533847283
+}
+AssetIdsOriginalToNew {
+  key: 5483563552860339814
+  value: 17907612274729752368
+}
+AssetIdsOriginalToNew {
+  key: 7200051673854745489
+  value: 9053817114278312303
+}
+AssetIdsOriginalToNew {
+  key: 7710766976004868532
+  value: 9147210892791736118
+}
+AssetIdsOriginalToNew {
+  key: 7893944204674572055
+  value: 15186593714506469047
+}
+AssetIdsOriginalToNew {
+  key: 7944867993460610434
+  value: 10766762075227401881
+}
+AssetIdsOriginalToNew {
+  key: 9401641673064385493
+  value: 16492808986242958264
+}
+AssetIdsOriginalToNew {
+  key: 9763722740626469117
+  value: 7732673160436736502
+}
+AssetIdsOriginalToNew {
+  key: 9910668944043622807
+  value: 10949264544534120004
+}
+AssetIdsOriginalToNew {
+  key: 10198742795619588501
+  value: 16848100521978938556
+}
+AssetIdsOriginalToNew {
+  key: 11200113051791137111
+  value: 12242559180996887614
+}
+AssetIdsOriginalToNew {
+  key: 12503388044745462452
+  value: 1684100568528813370
+}
+AssetIdsOriginalToNew {
+  key: 12675159091465939931
+  value: 3263075989542966965
+}
+AssetIdsOriginalToNew {
+  key: 13091775368145887018
+  value: 16521696195143155444
+}
+AssetIdsOriginalToNew {
+  key: 13851849795079417314
+  value: 6448287611168955833
+}
+AssetIdsOriginalToNew {
+  key: 14755304905124530719
+  value: 12107666253824073601
+}
+AssetIdsOriginalToNew {
+  key: 15205995109131008632
+  value: 7663011122108430168
+}
+AssetIdsOriginalToNew {
+  key: 15363891159604951712
+  value: 2968051275345916610
+}
+AssetIdsOriginalToNew {
+  key: 15889077083094942568
+  value: 13654968658316650745
+}
+AssetIdsOriginalToNew {
+  key: 17300920816602569018
+  value: 14638760307938819218
+}
+AssetIdsOriginalToNew {
+  key: 17700892954660083031
+  value: 6922951099324650340
+}
